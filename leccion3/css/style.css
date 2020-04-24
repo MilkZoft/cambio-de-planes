@@ -1,5 +1,5 @@
 body {
-  background-color: #EEE;
+  background-color: #d6d6d6;
 }
 
 .block {
@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  border: 1px solid orange;
+  border: 1px solid green;
 }
 
 ul {
@@ -19,21 +19,21 @@ ul {
 }
 
 .image {
-  width: 50%; /* 600px */
+  width: 50%;
 }
 
 #one {
-  color: brown;
+  border: 1px solid purple;
 }
 
 #one .highlight {
+  color: red;
+}
+
+#two .highlight {
   color: orange;
 }
 
 .blue {
   color: blue;
-}
-
-#two {
-  color: green;
 }
